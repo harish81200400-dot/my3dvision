@@ -115,7 +115,7 @@ export const BeforeAfterSlider: React.FC<BeforeAfterSliderProps> = ({ language }
           >
             {/* Base Image (AFTER: User's Attached Architectural House Enscape Render) */}
             <img
-              src="/src/assets/images/regenerated_image_1789799209477.png"
+              src="/assets/after.jpg"
               alt="Enscape Real-Time Photorealistic Render of Modern Architectural Villa"
               referrerPolicy="no-referrer"
               className="absolute inset-0 w-full h-full object-cover select-none pointer-events-none"
@@ -127,7 +127,7 @@ export const BeforeAfterSlider: React.FC<BeforeAfterSliderProps> = ({ language }
               style={{ clipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }}
             >
               <img
-                src="/src/assets/images/enscape_model_clay_1789798316712.jpg"
+                src="/assets/before.jpg"
                 alt="Raw CAD Viewport Clay Model of the drawing"
                 referrerPolicy="no-referrer"
                 className="absolute inset-0 w-full h-full object-cover select-none pointer-events-none"

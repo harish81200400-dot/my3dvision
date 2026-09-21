@@ -366,7 +366,7 @@ export const SPEAKER_DATA: SpeakerInfo = {
       },
     },
   ],
-  image: '/src/assets/images/speaker_portrait_1789786701306.jpg',
+  image: '/assets/speaker.jpg',
 };
 
 export const BONUSES_DATA: BonusItem[] = [
