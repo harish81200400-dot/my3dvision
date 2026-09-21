@@ -1,0 +1,44 @@
+<svg viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="logo-depth" x="-10%" y="-10%" width="120%" height="130%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="2" dy="5" stdDeviation="6" flood-opacity="0.22" />
+    </filter>
+    <linearGradient id="blue-wing-grad" x1="120" y1="120" x2="380" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2F80ED" />
+      <stop offset="50%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+    <linearGradient id="blue-sub-grad" x1="130" y1="290" x2="192" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#1E40AF" />
+    </linearGradient>
+  </defs>
+
+  <!-- Right White Pillar / Arch with curved sweep -->
+  <path
+    d="M 272 238 L 324 182 L 324 374 C 324 376 308 376 296 364 C 278 344 272 300 272 238 Z"
+    fill="#FFFFFF"
+    filter="url(#logo-depth)"
+  />
+
+  <!-- Left White Notch / Arrowhead -->
+  <path
+    d="M 192 250 L 130 322 L 192 360 Z"
+    fill="#FFFFFF"
+    filter="url(#logo-depth)"
+  />
+
+  <!-- Lower Left Blue Triangular Facet -->
+  <path
+    d="M 130 334 L 192 378 L 192 296 Z"
+    fill="url(#blue-sub-grad)"
+    filter="url(#logo-depth)"
+  />
+
+  <!-- Top Blue Dynamic Wing / M-Fold (Main Feature) -->
+  <path
+    d="M 116 148 L 236 204 L 380 116 L 273 240 L 230 298 L 192 250 L 130 232 Z"
+    fill="url(#blue-wing-grad)"
+    filter="url(#logo-depth)"
+  />
+</svg>
